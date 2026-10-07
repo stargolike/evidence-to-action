@@ -1,0 +1,6 @@
+interface:
+  display_name: "查证、推进与汇报"
+  short_description: "把多步骤任务整理为有据可查、顺序合理、可执行可验收的工作流程与报告"
+  default_prompt: "请使用 $evidence-to-action，查清依据，理顺任务顺序，完成执行和验证，并写出简明、可追溯的报告。"
+policy:
+  allow_implicit_invocation: true
